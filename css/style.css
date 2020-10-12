@@ -102,7 +102,6 @@
 .explain {
     width: 100%;
     height: 200px;
-    position: relative;
 }
 
 .inner_explain {
@@ -112,7 +111,6 @@
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    position: relative;
 }
 .explain_item {
     width: 100%;
@@ -120,31 +118,35 @@
     text-align: center;
 }
 
+.explain2 {
+    height: 200px;
+    width: 100%;
+    background-color: #87cefa;
+}
+
+.inner_explain2 {
+    width: 50%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* Footer */
 
 .footer {
-    height: 146px;
-    margin: 0 auto;
-    overflow: auto;
-    background: #1d1d1f;
-}
-
-.footer,
-.footer a {
+    height: 200px;
+    width: 100%;
+    background-color: #000;
     color: #fff;
     font-size: 14px;
 }
 
 .inner_footer {
     width: 1000px;
+    margin: 0 auto;
     height: 100%;
-    display: flex;
-    justify-content: start;
-    margin: 20px auto;
-}
-
-.footer_col1 {
-    padding-right: 10px;
 }
 
 input {
@@ -155,7 +157,8 @@ input {
 }
 
 .footer li {
-    line-height: 1.9;
+    line-height: 1.6;
+    padding-top: 10px;
 }
 
 /* Send Button likely unnecessary */
